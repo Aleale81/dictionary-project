@@ -22,14 +22,13 @@ export default function Word(props) {
 					</a>
 				</p>
 				<div className="row">
-					<div className="col-8">
+					<div className="col-8 ms-5 text-start">
 						{props.data.meanings.map(function (meaning, index) {
 							return <Definitions key={index} meaning={meaning} />;
 						})}
-						<div className="text-start ms-5 mt-4">
-							<h3 className="">Origin</h3>
-							<p className="lh-sm fw-light">{props.data.origin}</p>
-						</div>
+						<p className="lh-sm fw-light mt-5 fst-italic">
+							{props.data.origin}
+						</p>
 					</div>
 				</div>
 			</div>
