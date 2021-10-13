@@ -15,15 +15,15 @@ function App() {
 					<Dictionary />
 				</main>
 				<footer className="Footer">
-					{" "}
+					Coded by{" "}
 					<a
+						className="text-decoration-none"
 						href="https://github.com/Aleale81/dictionary-project"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						Open-sourse code
+						Alessandra Scarpellini
 					</a>{" "}
-					by Alessandra Scarpellini{" "}
 				</footer>
 			</div>
 		</div>
