@@ -17,13 +17,9 @@
 .Footer {
     font-size: 12px;
     margin-top: 30px;
+    margin-bottom: 20px;
 }
 
-.phonetic {
-    font-size: 26px;
-    text-decoration: none;
-}
-
-.Synonyms {
+.Synonyms ul {
     padding: 0;
 }
