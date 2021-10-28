@@ -3,6 +3,7 @@
 import React from "react";
 import Definitions from "./Definitions";
 import ReactAudioPlayer from "react-audio-player";
+import Photos from "./Photos";
 
 export default function Word(props) {
 	if (props.data) {
@@ -24,6 +25,11 @@ export default function Word(props) {
 						<section>
 							<h2>Origin</h2>
 							<p className="origin">{props.data.origin}</p>
+						</section>
+					</div>
+					<div className="col-4">
+						<section>
+							<Photos photos={props.photos} />
 						</section>
 					</div>
 				</div>
