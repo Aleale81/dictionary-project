@@ -11,12 +11,10 @@ export default function Dictionary(props) {
 	let [photos, setPhotos] = useState(null);
 
 	function handleDictionaryResponse(response) {
-		console.log(response.data[0]);
 		setWordData(response.data[0]);
 	}
 
 	function handlePexelsResponse(response) {
-		console.log(response.data.photos);
 		setPhotos(response.data.photos);
 	}
 

@@ -22,8 +22,8 @@ function App() {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						Alessandra Scarpellini
-					</a>{" "}
+						Alessandra Scarpellini <i class="fab fa-github icons"></i>
+					</a>
 				</footer>
 			</div>
 		</div>

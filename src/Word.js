@@ -10,9 +10,7 @@ export default function Word(props) {
 		return (
 			<div className="Word">
 				<div className="row mt-3">
-					{" "}
 					<div className="col-md-8 text-start">
-						{" "}
 						<section className="audioplayer text-center m-lg-3 mb-3">
 							<h1>{props.data.word} </h1>
 							<p>({props.data.phonetic})</p>
