@@ -9,15 +9,16 @@ export default function Photos(props) {
 				{props.photos.map(function (photo, index) {
 					return (
 						<a
+							key={index}
 							href={photo.src.original}
 							target="_blank"
 							rel="noopener noreferrer"
 						>
 							<img
 								src={photo.src.tiny}
-								alt={photo.photographer}
-								key={index}
-								className="img-fluid mb-4"
+								alt={`pic from ${photo.photographer}`}
+								title={photo.photographer}
+								className="mb-3 img-fluid"
 							/>
 						</a>
 					);
